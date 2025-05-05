@@ -2,6 +2,7 @@
     "appId": "com.hs.electron-template",
     "files": ["dist-electron", "dist-react"],
     "icon": "./icon-electron.png",
+    "extraResources": ["dist-electron/preload.cjs"],
     "mac": {
         "target": "dmg"
     },

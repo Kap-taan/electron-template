@@ -17,6 +17,8 @@
     "dist:linux": "npm run transpile:electron && npm run build && electron-builder --linux --x64"
   },
   "dependencies": {
+    "@types/os-utils": "^0.0.4",
+    "os-utils": "^0.0.14",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
